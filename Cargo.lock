@@ -545,7 +545,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tehsplay"
+name = "tehdb"
 version = "0.1.0"
 dependencies = [
  "anyhow",

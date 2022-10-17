@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 use smallvec::smallvec;
-use tehsplay::database::{Database, ElementType, Row, Schema};
+use tehdb::database::{Database, ElementType, Row, Schema};
 
 pub fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("insert 1000 rows", |b| {

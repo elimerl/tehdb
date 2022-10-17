@@ -128,7 +128,7 @@ pub(crate) type DbResult<A> = Result<A, DatabaseError>;
 /// }
 ///
 /// // You would have a schema:
-/// use tehsplay::database::{ElementType, Database, Row, Schema};
+/// use tehdb::database::{ElementType, Database, Row, Schema};
 /// let schema = Schema::new(vec![("id".into(), ElementType::U32), ("email".into(), ElementType::String), ("password".into(), ElementType::String)], /* primary key */ 0);
 ///
 /// // So you can create a database:
